@@ -1,0 +1,11 @@
+---
+application:
+  name: "bmsce-gp-calculator"
+  project: "bmsce-sgpa-calculator"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-bmsce-gp-calculator"
+  routes:
+  - application_name: "bmsce-gp-calculator"
+    paths:
+    - "/*"
